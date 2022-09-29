@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700;900&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-bg-color: #1F2937;
+    --hero-main-text: #F8FAF8;
+    --hero-secondary-text: #E5E7EB;
+    --header-logo-text: #f9FAF8;
+    --button: #3882F6;
+    --information-header-text: #1F2937;
+    --quote-bg: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 400px;
+    max-height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    height: 600px;
+    background-color: var(--dark-bg-color);
+    color: white;
+}
+
+.header-container {
+    width: 80vw;    
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    color: var(--header-logo-text);
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;    
+}
+
+li {
+    cursor: pointer;
+}
+
+.container-hero {
+    display: flex;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+h1, .hero-p {
+    margin: 25px 0;
+}
+
+h1 {
+    color: var(--hero-main-text);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-p {
+    color: var(--hero-secondary-text);
+    font-size: 18px;
+}
+
+button {
+    background-color: var(--button);
+    color: var(--hero-main-text);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Sectie 2 */
+
+
+
