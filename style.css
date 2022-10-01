@@ -111,33 +111,31 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
     flex-wrap: wrap;
 }
 
 h2 {
     display: flex;
     justify-content: center;
-    flex: 0 0 100%;
+    padding: 35px 0;
+    flex-grow: 1;
 }
 
-.container-section2 > img {
+.cat-images {
+    padding: 35px 0;
+    text-align: center;
     display: flex;
-    flex-direction: column;
 }
 
-.container-images {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100px;
-    height: 100px;
-    gap: 10px;
+.cat-image> img {
+    width: 150px;
+    height: 150px;
 }
 
-.container-images > img {
-    flex: 1 0 80%;
+.cat-image {
+    margin: 0 1vw;
 }
+
 
 .section-3 {
     background-color: var(--quote-bg);
@@ -178,20 +176,33 @@ h2 {
     font-display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80vw;
-    height: 100px;
-    border-radius: 25px;
-    padding: 20px 50px;
+    width: auto;
+    height: auto;
+    gap: 150px;
+    border-radius: 8px;
+    padding: 50px 150px;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column; 
+    color: white;
+    margin: 10px 0;
+}
+
+.contact-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.contact-text {
     color: white;
 }
 
 button {
+    display: flex;
+    padding-top: 7px;
     border: 1px solid whitesmoke;
+    justify-content: center;
 }
 
 footer {
